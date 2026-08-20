@@ -50,7 +50,7 @@ class RemoteBoundary extends Component<{ children: ReactNode; label: string }, B
 
 function RemotePage({ children, label }: { children: ReactNode; label: string }) {
 	return (
-		<RemoteBoundary label={label}>
+		<RemoteBoundary key={label} label={label}>
 			<Suspense fallback={<Loading />}>{children}</Suspense>
 		</RemoteBoundary>
 	);
