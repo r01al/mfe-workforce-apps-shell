@@ -1,0 +1,74 @@
+[
+	{
+		"id": "maya-chen", "name": "Maya Chen", "initials": "MC", "email": "maya.chen@workforce.dev", "phone": "+1 415 555 0124",
+		"position": "Store Manager", "gender": "Female", "age": 34, "location": "Downtown", "joined": "2021-03-12", "status": "Working", "color": "#6757d9",
+		"skills": [{ "name": "Team leadership", "level": "Expert" }, { "name": "Scheduling", "level": "Expert" }, { "name": "Inventory", "level": "Good" }],
+		"shifts": [{ "weekday": 1, "startHour": 8, "endHour": 16 }, { "weekday": 2, "startHour": 8, "endHour": 16 }, { "weekday": 3, "startHour": 9, "endHour": 17 }, { "weekday": 4, "startHour": 8, "endHour": 16 }, { "weekday": 5, "startHour": 8, "endHour": 15 }]
+	},
+	{
+		"id": "ethan-williams", "name": "Ethan Williams", "initials": "EW", "email": "ethan.w@workforce.dev", "phone": "+1 415 555 0168",
+		"position": "Shift Supervisor", "gender": "Male", "age": 29, "location": "Downtown", "joined": "2022-07-08", "status": "Working", "color": "#e58b43",
+		"skills": [{ "name": "Team leadership", "level": "Good" }, { "name": "Cash handling", "level": "Expert" }, { "name": "First aid", "level": "Good" }],
+		"shifts": [{ "weekday": 1, "startHour": 10, "endHour": 18 }, { "weekday": 2, "startHour": 10, "endHour": 18 }, { "weekday": 4, "startHour": 9, "endHour": 17 }, { "weekday": 5, "startHour": 10, "endHour": 18 }, { "weekday": 6, "startHour": 9, "endHour": 16 }]
+	},
+	{
+		"id": "sofia-martinez", "name": "Sofia Martinez", "initials": "SM", "email": "sofia.m@workforce.dev", "phone": "+1 415 555 0141",
+		"position": "Sales Associate", "gender": "Female", "age": 25, "location": "Riverside", "joined": "2023-01-19", "status": "On break", "color": "#3f9b8f",
+		"skills": [{ "name": "Customer care", "level": "Expert" }, { "name": "Visual display", "level": "Good" }, { "name": "Cash handling", "level": "Good" }],
+		"shifts": [{ "weekday": 1, "startHour": 9, "endHour": 15 }, { "weekday": 3, "startHour": 9, "endHour": 17 }, { "weekday": 4, "startHour": 11, "endHour": 18 }, { "weekday": 6, "startHour": 10, "endHour": 17 }]
+	},
+	{
+		"id": "noah-johnson", "name": "Noah Johnson", "initials": "NJ", "email": "noah.j@workforce.dev", "phone": "+1 415 555 0189",
+		"position": "Stock Specialist", "gender": "Male", "age": 41, "location": "Downtown", "joined": "2020-09-02", "status": "Working", "color": "#4d7cc7",
+		"skills": [{ "name": "Inventory", "level": "Expert" }, { "name": "Forklift", "level": "Expert" }, { "name": "Receiving", "level": "Expert" }],
+		"shifts": [{ "weekday": 1, "startHour": 7, "endHour": 15 }, { "weekday": 2, "startHour": 7, "endHour": 15 }, { "weekday": 3, "startHour": 7, "endHour": 15 }, { "weekday": 4, "startHour": 7, "endHour": 15 }, { "weekday": 5, "startHour": 7, "endHour": 14 }]
+	},
+	{
+		"id": "ava-patel", "name": "Ava Patel", "initials": "AP", "email": "ava.p@workforce.dev", "phone": "+1 415 555 0133",
+		"position": "Customer Support", "gender": "Female", "age": 31, "location": "Riverside", "joined": "2022-02-14", "status": "Working", "color": "#cf5f7c",
+		"skills": [{ "name": "Customer care", "level": "Expert" }, { "name": "Returns", "level": "Expert" }, { "name": "Languages", "level": "Good" }],
+		"shifts": [{ "weekday": 1, "startHour": 8, "endHour": 16 }, { "weekday": 2, "startHour": 9, "endHour": 17 }, { "weekday": 3, "startHour": 10, "endHour": 18 }, { "weekday": 5, "startHour": 9, "endHour": 17 }]
+	},
+	{
+		"id": "liam-brown", "name": "Liam Brown", "initials": "LB", "email": "liam.b@workforce.dev", "phone": "+1 415 555 0177",
+		"position": "Sales Associate", "gender": "Male", "age": 22, "location": "Downtown", "joined": "2024-05-20", "status": "Off today", "color": "#8f66b7",
+		"skills": [{ "name": "Customer care", "level": "Good" }, { "name": "Cash handling", "level": "Learning" }],
+		"shifts": [{ "weekday": 2, "startHour": 12, "endHour": 18 }, { "weekday": 3, "startHour": 12, "endHour": 18 }, { "weekday": 5, "startHour": 12, "endHour": 18 }, { "weekday": 6, "startHour": 10, "endHour": 18 }]
+	},
+	{
+		"id": "olivia-davis", "name": "Olivia Davis", "initials": "OD", "email": "olivia.d@workforce.dev", "phone": "+1 415 555 0115",
+		"position": "Shift Supervisor", "gender": "Female", "age": 38, "location": "Riverside", "joined": "2019-11-05", "status": "Working", "color": "#348c63",
+		"skills": [{ "name": "Team leadership", "level": "Expert" }, { "name": "Scheduling", "level": "Good" }, { "name": "First aid", "level": "Expert" }],
+		"shifts": [{ "weekday": 2, "startHour": 8, "endHour": 16 }, { "weekday": 3, "startHour": 8, "endHour": 16 }, { "weekday": 4, "startHour": 8, "endHour": 16 }, { "weekday": 6, "startHour": 8, "endHour": 16 }, { "weekday": 7, "startHour": 9, "endHour": 15 }]
+	},
+	{
+		"id": "lucas-kim", "name": "Lucas Kim", "initials": "LK", "email": "lucas.k@workforce.dev", "phone": "+1 415 555 0190",
+		"position": "Stock Specialist", "gender": "Male", "age": 27, "location": "Downtown", "joined": "2023-08-28", "status": "Working", "color": "#b07346",
+		"skills": [{ "name": "Inventory", "level": "Good" }, { "name": "Receiving", "level": "Expert" }, { "name": "Safety", "level": "Good" }],
+		"shifts": [{ "weekday": 1, "startHour": 8, "endHour": 14 }, { "weekday": 2, "startHour": 8, "endHour": 14 }, { "weekday": 4, "startHour": 8, "endHour": 16 }, { "weekday": 5, "startHour": 8, "endHour": 16 }]
+	},
+	{
+		"id": "emma-wilson", "name": "Emma Wilson", "initials": "EW", "email": "emma.w@workforce.dev", "phone": "+1 415 555 0108",
+		"position": "Customer Support", "gender": "Female", "age": 24, "location": "Downtown", "joined": "2024-02-01", "status": "Working", "color": "#507fb1",
+		"skills": [{ "name": "Customer care", "level": "Good" }, { "name": "Returns", "level": "Good" }, { "name": "Languages", "level": "Expert" }],
+		"shifts": [{ "weekday": 1, "startHour": 10, "endHour": 18 }, { "weekday": 3, "startHour": 10, "endHour": 18 }, { "weekday": 4, "startHour": 10, "endHour": 18 }, { "weekday": 5, "startHour": 10, "endHour": 18 }]
+	},
+	{
+		"id": "james-taylor", "name": "James Taylor", "initials": "JT", "email": "james.t@workforce.dev", "phone": "+1 415 555 0154",
+		"position": "Sales Associate", "gender": "Male", "age": 33, "location": "Riverside", "joined": "2021-10-11", "status": "On break", "color": "#d05b55",
+		"skills": [{ "name": "Customer care", "level": "Good" }, { "name": "Visual display", "level": "Expert" }, { "name": "Cash handling", "level": "Good" }],
+		"shifts": [{ "weekday": 1, "startHour": 11, "endHour": 18 }, { "weekday": 2, "startHour": 11, "endHour": 18 }, { "weekday": 3, "startHour": 11, "endHour": 18 }, { "weekday": 7, "startHour": 10, "endHour": 16 }]
+	},
+	{
+		"id": "isabella-rossi", "name": "Isabella Rossi", "initials": "IR", "email": "isabella.r@workforce.dev", "phone": "+1 415 555 0129",
+		"position": "Sales Associate", "gender": "Non-binary", "age": 28, "location": "Downtown", "joined": "2023-04-17", "status": "Working", "color": "#8a6c52",
+		"skills": [{ "name": "Customer care", "level": "Expert" }, { "name": "Visual display", "level": "Expert" }, { "name": "Languages", "level": "Good" }],
+		"shifts": [{ "weekday": 2, "startHour": 9, "endHour": 17 }, { "weekday": 3, "startHour": 9, "endHour": 17 }, { "weekday": 4, "startHour": 9, "endHour": 17 }, { "weekday": 5, "startHour": 9, "endHour": 17 }]
+	},
+	{
+		"id": "henry-adams", "name": "Henry Adams", "initials": "HA", "email": "henry.a@workforce.dev", "phone": "+1 415 555 0162",
+		"position": "Customer Support", "gender": "Male", "age": 45, "location": "Riverside", "joined": "2018-06-22", "status": "Off today", "color": "#447d76",
+		"skills": [{ "name": "Customer care", "level": "Expert" }, { "name": "Returns", "level": "Expert" }, { "name": "Training", "level": "Expert" }],
+		"shifts": [{ "weekday": 2, "startHour": 8, "endHour": 16 }, { "weekday": 4, "startHour": 8, "endHour": 16 }, { "weekday": 5, "startHour": 8, "endHour": 16 }, { "weekday": 6, "startHour": 8, "endHour": 15 }]
+	}
+]
