@@ -2,6 +2,8 @@
 
 The independently deployed Module Federation host for Workforce Hub. It owns browser history, top-level routes, remote loading, Bulma, shell layout CSS, and the `@r01al/mfe-workforce-common-client` base stylesheet. Its production server and Webpack setup come from `@r01al/mfe-workforce-common-server`.
 
+Remote containers are loaded on demand. Navigation and header load with the shell because they are always visible; a screen remote loads only when its route is rendered. Build-time `MFE_*_URL` values provide defaults, and `window.__MFE_REMOTES__` can override them before the shell bundle executes.
+
 ```bash
 npm install
 npm run dev

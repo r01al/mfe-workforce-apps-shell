@@ -1,13 +1,14 @@
 import { Component, lazy, Suspense, type ErrorInfo, type ReactNode } from 'react';
 import { AlertTriangle, LoaderCircle } from 'lucide-react';
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { loadRemoteComponent } from './federation';
 
-const Navigation = lazy(() => import('navigation/Navigation'));
-const Header = lazy(() => import('header/Header'));
-const Overview = lazy(() => import('overview/Overview'));
-const Calendar = lazy(() => import('calendar/Calendar'));
-const Workers = lazy(() => import('workers/Workers'));
-const Settings = lazy(() => import('settings/Settings'));
+const Navigation = lazy(loadRemoteComponent('navigation', './Navigation'));
+const Header = lazy(loadRemoteComponent('header', './Header'));
+const Overview = lazy(loadRemoteComponent('overview', './Overview'));
+const Calendar = lazy(loadRemoteComponent('calendar', './Calendar'));
+const Workers = lazy(loadRemoteComponent('workers', './Workers'));
+const Settings = lazy(loadRemoteComponent('settings', './Settings'));
 
 function Loading({ compact = false }: { compact?: boolean }) {
 	return (
